@@ -6,6 +6,7 @@ if( isset($_GET['page']) && !empty($_GET['page'])){
 
     $page = "home";
 }
+echo "Hello";
 
 $allpages = scandir("controllers/");
 
